@@ -1,0 +1,9 @@
+{
+  "project": {
+    "name": "Redmine Project Postman",
+    "identifier": "yedminepuwafgo9",
+    "description": "Redmine Project for api testing",
+    "inherit_members": false,
+    "is_public": true
+  }
+}

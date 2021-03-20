@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "issue": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "project": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name"
+          ]
+        },
+        "tracker": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name"
+          ]
+        },
+        "status": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name"
+          ]
+        },
+        "priority": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name"
+          ]
+        },
+        "author": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name"
+          ]
+        },
+        "subject": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "start_date": {
+          "type": "string"
+        },
+        "due_date": {
+          "type": "null"
+        },
+        "done_ratio": {
+          "type": "integer"
+        },
+        "is_private": {
+          "type": "boolean"
+        },
+        "estimated_hours": {
+          "type": "null"
+        },
+        "total_estimated_hours": {
+          "type": "null"
+        },
+        "spent_hours": {
+          "type": "number"
+        },
+        "total_spent_hours": {
+          "type": "number"
+        },
+        "created_on": {
+          "type": "string"
+        },
+        "updated_on": {
+          "type": "string"
+        },
+        "closed_on": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "id",
+        "project",
+        "tracker",
+        "status",
+        "priority",
+        "author",
+        "subject",
+        "description",
+        "start_date",
+        "due_date",
+        "done_ratio",
+        "is_private",
+        "estimated_hours",
+        "total_estimated_hours",
+        "spent_hours",
+        "total_spent_hours",
+        "created_on",
+        "updated_on",
+        "closed_on"
+      ]
+    }
+  },
+  "required": [
+    "issue"
+  ]
+}
